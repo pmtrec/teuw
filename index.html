@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LO BEUGUE AMNA FI</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- En-tête de la page -->
+    <header>
+        <h1>Bienvenue chez BAYE ZALL SHOP</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Accueil</a></li>
+                <li><a href="#products">Produits</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Section principale -->
+    <main>
+        <!-- Section d'accueil -->
+        <section id="home">
+            <h2>Accueil</h2>
+            <p>KHOLAL SOUNOU YI ROBE D'ETE<br>AK SOUNIOU PRODUIT YOU YOMB YI<br> YEKH NIAK LA</p>
+        </section>
+
+        <!-- Section des produits -->
+        <section id="products">
+            <h2>Nos Produits</h2>
+            <div class="product">
+                <h3>Robe d'Été</h3>
+                <img src="robe.jpg" alt="Robe d'été">
+                <p>Prix: 6500 FCFA</p>
+                <button class="add-to-cart">Ajouter au panier</button>
+            </div>
+            <div class="product">
+                <h3>T-shirt</h3>
+                <img src="tshirt.jpg" alt="T-shirt">
+                <p>Prix: 4500 FCFA</p>
+                <button class="add-to-cart">Ajouter au panier</button>
+            </div>
+        </section>
+
+        <!-- Section de contact -->
+        <section id="contact">
+            <h2>Contactez-nous</h2>
+            <form>
+                <label for="name">Nom:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Envoyer</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Pied de page -->
+    <footer>
+        <p>&copy; SALIOU BOUTIQUE</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
